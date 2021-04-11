@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport content"width=device-width,intial-scale=1.0">
+    <title>Treasure Hunt!</title>
+    <link rel="stylesheet" href="treasure-hunt.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <h1>Treasure Hunt Game!</h1>
+<div>
+  <ul>
+    <li>Find the hidden treasure chest.</li>
+    <li>Keep clicking boxes and try to find the treasure</li>
+    <li>You have 5 turns to find the chest.</li>
+  </ul>
+</div>
+    <table class="center">
+  	<tr>
+  	    <td onclick="treasure(0)" id="0">?</td>
+        <td onclick="treasure(1)" id="1">?</td>
+        <td onclick="treasure(2)" id="2">?</td>
+  	</tr>
+    <tr>
+        <td onclick="treasure(3)" id="3">?</td>
+        <td onclick="treasure(4)" id="4">?</td>
+        <td onclick="treasure(5)" id="5">?</td>
+    </tr>
+    <tr>
+        <td onclick="treasure(6)" id="6">?</td>
+        <td onclick="treasure(7)" id="7">?</td>
+        <td onclick="treasure(8)" id="8">?</td>
+    </tr>
+  </table>
+  <br><br>
+  <button type="button" onclick="location.reload()">Restart Game</button>
+  <script type="text/javascript" src="treasure-hunt.js"></script>
+
+</body>
+</html>
